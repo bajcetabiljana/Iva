@@ -1,0 +1,58 @@
+
+.background #bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    color: gold;
+    font-size: 4vw;
+
+}
+
+.home {
+    background-color: rgba(224, 94, 81, 0.6);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 19px double;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home:hover {
+    background-color: rgba(224, 94, 81, 0.9);
+}
+.home h1 {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 54px;
+    right: 0;
+    left: 0;
+}
+
+footer img {
+    width: 4vw;
+}
